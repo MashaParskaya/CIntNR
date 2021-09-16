@@ -8,15 +8,19 @@ private:
     int coord[len];
     int N;
 public:
-    void set_coords(int crd[len]);
+    void set_coords(int* crd);
 
     void set_module(int m);
 
-    CIntNR(int crd[len], int m);
+    int* get_coords();
+
+    CIntNR(int* crd, int m);
 
     CIntNR();
 
     void print_num();
+
+
 
     const CIntNR operator+(const CIntNR a)
     {

@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 2.8)
 
 project(CIntNR)
 
-set(CIntNR_src main.cpp CIntNR.cpp)
-set(CIntNR_hdr head.hpp CIntNR.hpp)
+set(CIntNR_src main.cpp CIntNR.cpp autotest.cpp)
+set(CIntNR_hdr head.hpp CIntNR.hpp autotest.hpp)
 
 add_executable(${PROJECT_NAME} ${CIntNR_src} ${CIntNR_hdr})
 

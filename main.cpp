@@ -1,10 +1,12 @@
 #include "head.hpp"
-#include "CIntNR.cpp"
+#include "CIntNR.hpp"
+#include "autotest.hpp"
 
 
 
 int main()
 {
+    Autotest();
     int a[len];
     int b[len];
     int mod;
